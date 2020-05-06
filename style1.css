@@ -1,0 +1,88 @@
+    .a1{
+        width: 100%;
+        height: 50px;
+        background-color: royalblue;
+    }
+    td ul{
+        float: left;
+    }
+    td ul li{
+        display: inline;
+        position: relative;
+        float: left;
+        list-style: none;
+        position: relative;
+    }
+    td ul li a{
+        display: block;
+        padding: 12px 20px;
+        text-decoration: none;
+    }
+    td ul li ul{
+        display: none;
+        position: absolute;
+        background-color: white;
+    }
+    td ul li:hover ul{
+        display: block;
+    }
+    td ul li ul li a {
+        padding: 20px;
+        float: left;
+    }
+    td ul li ul li{
+        width: 280px;
+        border-radius: 4px;
+        
+    } 
+    
+    td ul li ul li a:hover{
+        background-color: royalblue;
+    }
+    .img1{ 
+        width: 100%;
+    }
+    .tt{width: 100%;
+        ;}
+    .rt{background-color: royalblue;
+    }
+    .inline{display: inline-block;
+        color: white;
+        padding: 30px;
+        height: 50px 50px ;
+    }
+    .gg{
+        display: flex;
+        display: inline-block;
+        border: 2px solid white;
+        box-shadow  : 5px 10px gray ;
+        width: 300px;
+    margin: 2%;
+    padding: 20px 20px 20px 20px;
+    background-color: whitesmoke;
+    }
+    .main{
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px;
+        
+    }
+    .hh{
+        display: flex;
+        border: 2px solid whitesmoke;
+        box-shadow: 5px 10px whitesmoke;
+        width: 300px;
+        margin: 2%;
+        padding: 20px 20px 20px 20px;
+        display: inline-block;
+    
+    } 
+    .images{
+    padding: 5%;
+   
+}
+    .button{
+        width: 85px;
+        font-size: small;
+
+    }
